@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
   	extend: {
   		backgroundImage: {
-  			'custom-gradient': 'linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12)'
+  			'madeJaragua': 'linear-gradient(to bottom, #d6121d, #ee4766, #f477a4, #f0a5d4, #edcff1, #e2d7f7, #dbdef7, #dae4f4, #b3d3e9, #85c4d9, #52b4bf, #1da49c);'
   		},
   		colors: {
   			background: 'var(--background)',

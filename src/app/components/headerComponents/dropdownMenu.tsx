@@ -6,6 +6,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { BiSolidDrink } from "react-icons/bi";
 
 export function DropdownMenuComponent() {
   return (
@@ -20,9 +21,9 @@ export function DropdownMenuComponent() {
           </div>
         </label>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-56">
+      <DropdownMenuContent className="w-40">
         <DropdownMenuItem>
-          <User className="mr-2 h-4 w-4" />
+          <BiSolidDrink className="mr-2 h-4 w-4" />
           <span>Bebidas</span>
         </DropdownMenuItem>
         <DropdownMenuItem>
@@ -35,7 +36,7 @@ export function DropdownMenuComponent() {
         </DropdownMenuItem>
         <DropdownMenuItem>
           <PlusCircle className="mr-2 h-4 w-4" />
-          <span>More...</span>
+          <span>Mais informações</span>
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
