@@ -5,7 +5,7 @@ import Products from "./components/productsComponent/products";
 
 export default function Home() {
   return (
-    <section className="w-full bg-black h-full md:h-[100vh]">
+    <section className="w-full bg-madeJaragua h-full md:h-[100vh]">
       <Header />
       <Products />
     </section>
